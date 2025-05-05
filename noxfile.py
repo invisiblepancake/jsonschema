@@ -29,6 +29,7 @@ NONGPL_LICENSES = [
     "Apache Software License",
     "BSD License",
     "ISC License (ISCL)",
+    "MIT",
     "MIT License",
     "Mozilla Public License 2.0 (MPL 2.0)",
     "Python Software Foundation License",
@@ -125,6 +126,7 @@ def license_check(session):
         # because pip-licenses doesn't yet support PEP 639 :/
         "attrs",
         "jsonschema",
+        "jsonschema-specifications",
         "referencing",
 
         "--allow-only",
